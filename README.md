@@ -1,5 +1,3 @@
-# Nuban
-
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nuban`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
@@ -13,16 +11,25 @@ gem 'nuban'
 ```
 
 And then execute:
-
-    $ bundle
+```ruby
+bundle
+```
 
 Or install it yourself as:
-
-    $ gem install nuban
+```ruby
+gem install nuban
+```
 
 ## Usage
+```ruby
+require 'nuban'
 
-TODO: Write usage instructions here
+generateNuban = Nigerian::Nuban.generate_nuban("095", "901238930")
+render json: generateNuban
+```
+
+
+Finish
 
 ## Development
 
