@@ -1,6 +1,5 @@
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nuban`. To experiment with that code, run `bin/console` for an interactive prompt.
+This repo contains the algorithm for generating and validating a NUBAN (Nigeria Uniform Bank Account Number) in Ruby. The algorithm is based on this here CBN specification for the 10-digit NUBAN. 10-digit is stated because CBN announced not too long ago that it's considering updating the specification for a NUBAN; which might see the NUBAN getting up to 16-digits in length.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
